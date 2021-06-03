@@ -1,0 +1,31 @@
+{
+  "name": "img-alt-tag-check",
+  "version": "0.0.1",
+  "description": "11ty plugin to check and validate images have alt tags",
+  "main": "index.js",
+  "scripts": {
+    "dev": "eleventy --config example/.eleventy.js --input example/ --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garrettbland/img-alt-tag-check.git"
+  },
+  "keywords": [
+    "11ty",
+    "eleventy",
+    "plugin",
+    "image"
+  ],
+  "author": "Garrett Bland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garrettbland/img-alt-tag-check/issues"
+  },
+  "homepage": "https://github.com/garrettbland/img-alt-tag-check#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  },
+  "dependencies": {
+    "jsdom": "^16.6.0"
+  }
+}
