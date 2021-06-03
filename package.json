@@ -1,31 +1,40 @@
 {
-  "name": "img-alt-tag-check",
-  "version": "0.0.1",
-  "description": "11ty plugin to check and validate images have alt tags",
-  "main": "index.js",
-  "scripts": {
-    "dev": "eleventy --config example/.eleventy.js --input example/ --serve"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/garrettbland/img-alt-tag-check.git"
-  },
-  "keywords": [
-    "11ty",
-    "eleventy",
-    "plugin",
-    "image"
-  ],
-  "author": "Garrett Bland",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/garrettbland/img-alt-tag-check/issues"
-  },
-  "homepage": "https://github.com/garrettbland/img-alt-tag-check#readme",
-  "devDependencies": {
-    "@11ty/eleventy": "^0.12.1"
-  },
-  "dependencies": {
-    "jsdom": "^16.6.0"
-  }
+    "name": "img-alt-tag-check",
+    "version": "0.0.1",
+    "description": "11ty plugin to check and validate images have alt tags",
+    "author": {
+        "name": "Garrett Bland",
+        "email": "gmorganbland@gmail.com",
+        "url": "https://twitter.com/gbland777"
+    },
+    "main": "index.js",
+    "scripts": {
+        "dev": "eleventy --config example/.eleventy.js --input example/ --serve --output dist/",
+        "build": "babel src --out-dir ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/garrettbland/img-alt-tag-check.git"
+    },
+    "keywords": [
+        "11ty",
+        "eleventy",
+        "plugin",
+        "image"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/garrettbland/img-alt-tag-check/issues"
+    },
+    "homepage": "https://github.com/garrettbland/img-alt-tag-check#readme",
+    "devDependencies": {
+        "@11ty/eleventy": "^0.12.1",
+        "@babel/cli": "^7.14.3",
+        "@babel/core": "^7.14.3",
+        "@babel/preset-env": "^7.14.4",
+        "prettier": "^2.3.0"
+    },
+    "dependencies": {
+        "jsdom": "^16.6.0"
+    }
 }

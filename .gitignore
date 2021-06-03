@@ -1,0 +1,11 @@
+# node
+node_modules/
+
+# MacOS
+.DS_Store
+
+# build directory
+dist/
+
+# built javascript files
+/*.js
