@@ -1,3 +1,3 @@
 module.exports = function (config) {
-    config.addPlugin(require('../index.js'))
+    config.addPlugin(require('../src/index.js'))
 }
