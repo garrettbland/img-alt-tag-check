@@ -7,7 +7,7 @@
 Install the package
 
 ```bash
-npm install -D image-alt-tag-check
+npm install -D @garettbland/image-alt-tag-check
 ```
 
 Then add the plugin to your `.eleventy.js` file
@@ -15,7 +15,7 @@ Then add the plugin to your `.eleventy.js` file
 ```javascript
 // .eleventy.js
 module.exports = (eleventyConfig) => {
-    eleventyConfig.addPlugin(require('image-alt-tag-check'))
+    eleventyConfig.addPlugin(require('@garettbland/image-alt-tag-check'))
 }
 ```
 

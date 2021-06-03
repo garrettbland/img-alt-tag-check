@@ -1,5 +1,5 @@
 {
-    "name": "img-alt-tag-check",
+    "name": "@garrettbland/img-alt-tag-check",
     "version": "0.0.1",
     "description": "11ty plugin to check and validate images have alt tags",
     "author": {
