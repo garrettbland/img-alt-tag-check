@@ -7,7 +7,19 @@
         "email": "gmorganbland@gmail.com",
         "url": "https://twitter.com/gbland777"
     },
+    "prettier": {
+        "semi": false,
+        "trailingComma": "es5",
+        "singleQuote": true,
+        "printWidth": 70,
+        "tabWidth": 4,
+        "useTabs": false,
+        "bracketSpacing": true
+    },
     "main": "index.js",
+    "publishConfig": {
+        "access": "public"
+    },
     "scripts": {
         "dev": "eleventy --config example/.eleventy.js --input example/ --serve --output dist/",
         "build": "babel src --out-dir ."
