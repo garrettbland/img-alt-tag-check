@@ -15,7 +15,7 @@ module.exports = (eleventyConfig) => {
                 }
             })
 
-            return document.documentElement.outerHTML
+            return dom.serialize()
         } else {
             return content
         }
